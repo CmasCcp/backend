@@ -1,0 +1,10 @@
+node_modules/
+
+mongo.txt
+env.txt
+
+.env
+
+peticiones.http
+
+projects.txt

@@ -1,0 +1,11 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nombre-del-despliegue
+spec: 
+  replicas: 3
+  selector:
+    matchLabels:
+      app: nombre-de-la-aplicacion
+    template:
+      metadata:
